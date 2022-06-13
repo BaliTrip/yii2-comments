@@ -1,0 +1,21 @@
+{
+  "name": "balitrip/yii2-comments",
+  "description": "Comments Module For Yii2 Framework",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Taras Makitra",
+      "email": "makitrataras@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "balitrip\\comments\\": ""
+    }
+  },
+  "require": {
+    "yiisoft/yii2": "~2.0",
+    "yiidoc/yii2-timeago": "^2.0",
+    "tijsverkoyen/akismet": "^1.1"
+  }
+}
